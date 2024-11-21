@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Utilisateur Connecté</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bienvenue sur l'App Web</h1>
+        </header>
+
+        <section class="user-info">
+            <h2>Bonjour, <span id="user-name"></span> !</h2>
+            <p>Bienvenue sur votre espace utilisateur. Voici vos informations :</p>
+            <ul>
+                <li>Email: <span id="user-email"></span></li>
+                <li>Utilisateur depuis: <span id="user-since"></span></li>
+            </ul>
+        </section>
+
+        <section class="actions">
+            <button id="logout-btn" onclick="logout()">Se déconnecter</button>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
